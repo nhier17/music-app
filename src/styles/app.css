@@ -25,7 +25,7 @@ h4 {
 
 
 @import "./song";
-@import "./library.scss";
+@import "./library.css";
 @import "./nav";
 @import "./player"
 
