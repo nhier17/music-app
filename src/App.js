@@ -1,7 +1,7 @@
 import React, {useState,useRef} from "react";
 import Player from "./components/Player";
 import Song from "./components/Song";
-import data from "./music"
+import data from "./Music"
 import "./styles/app.scss";
 import Library from "./components/Library";
 import Nav from "./components/Nav";
