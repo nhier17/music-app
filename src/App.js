@@ -1,7 +1,7 @@
 import React, {useState,useRef} from "react";
 import Player from "./components/Player";
 import Song from "./components/Song";
-import data from "./Music"
+import chillhop from "./Music"
 import "./styles/app.scss";
 import Library from "./components/Library";
 import Nav from "./components/Nav";
@@ -10,7 +10,7 @@ import Nav from "./components/Nav";
 function App() {
   const audioRef = useRef(null);
 
-  const [songs, setSongs] = useState(data());
+  const [songs, setSongs] = useState(chillhop());
   const [currentSong, setCurrentSong] = useState(songs[1]) ;
   const [isPlaying, setIsPlaying] = useState(false);
   const [songInfo, setSongInfo] = useState({
