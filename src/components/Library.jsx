@@ -1,5 +1,5 @@
 import React from "react";
-import LibrarySong from "./librarysongs";
+import LibrarySong from "./librarySongs";
 const Library = ({audioRef,songs, setCurrentSong,isPlaying, setSongs,libraryStatus}) => (
     <div className={`library ${libraryStatus ? 'active-library' : ""}`}>
         <h2>Library</h2>

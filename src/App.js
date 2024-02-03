@@ -1,10 +1,10 @@
 import React, {useState,useRef} from "react";
-import Player from "./components/player";
-import Song from "./components/song";
+import Player from "./components/Player";
+import Song from "./components/Song";
 import data from "./music"
 import "./styles/app.scss";
-import Library from "./components/library";
-import Nav from "./components/nav";
+import Library from "./components/Library";
+import Nav from "./components/Nav";
  
 
 function App() {

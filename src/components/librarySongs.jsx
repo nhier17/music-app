@@ -26,7 +26,7 @@ if(isPlaying) audioRef.current.play()
 
     return(
         <div onClick={songSelectHandler} className={`library-song ${song.active ? 'selected' : ""}`}>
-      <img src={song.cover}></img>
+      <img src={song.cover} alt="song cover"></img>
       <div className="song-description">
       <h3>{song.name}</h3>  
       <h4>{song.artist}</h4>
